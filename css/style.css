@@ -1,0 +1,57 @@
+* {
+  color: white;
+}
+
+.titlePadding {
+  padding-top: 200px;
+}
+
+#button {
+  padding: 15px 35px;
+  border: 2px solid white;
+}
+
+.ArrowDown {
+  display: inline-block;
+  width: 100px;
+  padding-top: 100px;
+}
+
+.footer {
+  background-color: black;
+}
+
+.footer a :hover {
+  color: aqua;
+  font-size: 30px;
+}
+
+.container00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container00.container01 {
+  background-image: url(/imagens/home/01.jpg);
+}
+
+.container00.container02 {
+  background-image: url(/imagens/home/03.jpg);
+}
+
+.container00.container03 {
+  background-image: linear-gradient(to left, transparent 0%, rgb(0, 0, 0) 200%),
+    url(/imagens/home/02.gif);
+}
+
+.container00.container04 {
+  background-image: url(/imagens/home/04.jpg);
+}
+
+.Nav_Logo {
+  width: 240px;
+  margin-right: 20px;
+  margin-left: -18px;
+}
